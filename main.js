@@ -1,6 +1,7 @@
 // FUNCIÓN PARA ABRIR WHATSAPP
 function contactar() {
-  window.open("https://wa.me/528135092997", "_blank");
+  const mensaje = encodeURIComponent("¡Hola! Estoy interesado en un terrario.");
+  window.open("https://wa.me/5218135092997?text=" + mensaje, "_blank");
 }
 
 // SCROLL SUAVE PARA EL MENÚ
