@@ -261,3 +261,41 @@ footer {
     background-position: center center;
   }
 }
+.red-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px; /* ajustar según posición */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  z-index: 2000;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.red-float img {
+  width: 30px;
+  height: 30px;
+  filter: brightness(0) invert(1); /* convierte el SVG a blanco por defecto */
+}
+
+/* Colores específicos por app */
+.red-float.whatsapp img {
+  filter: invert(51%) sepia(84%) saturate(473%) hue-rotate(123deg) brightness(94%) contrast(90%);
+}
+
+.red-float.instagram img {
+  filter: invert(33%) sepia(78%) saturate(552%) hue-rotate(300deg) brightness(93%) contrast(92%);
+}
+
+.red-float.facebook img {
+  filter: invert(34%) sepia(92%) saturate(430%) hue-rotate(199deg) brightness(96%) contrast(91%);
+}
+
+/* Hover efecto */
+.red-float:hover {
+  transform: scale(1.15);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
