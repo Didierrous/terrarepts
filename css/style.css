@@ -289,8 +289,8 @@ footer {
 }
 
 .red-float img {
-  width: 35px;  /* ajusta según tu imagen */
-  height: 35px;
+  width: 45px;  /* ajusta según tu imagen */
+  height: 45px;
   object-fit: contain;
 }
 
