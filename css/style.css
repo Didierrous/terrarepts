@@ -45,7 +45,7 @@ body {
 /* HERO */
 .hero {
   height: 90vh;
-  background: url('images/fondo-escamoso.png') center/cover no-repeat;
+background: url('../images/fondo-escamoso.png') center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -126,12 +126,12 @@ footer {
 /* BOTÓN FLOTANTE WHATSAPP */
 .whatsapp-float {
   position: fixed;
-  width: 45px;
-  height: 45px;
-  bottom: 15px;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
   right: 15px;
   background-color: #25D366;
-  border-radius: 50%;
+  border-radius: 60%;
   box-shadow: 0 2px 6px rgba(0,0,0,0.3);
   display: flex;
   justify-content: center;
