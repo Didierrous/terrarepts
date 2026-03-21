@@ -110,7 +110,7 @@ body {
   height: 100%;
 
   /* Solo la imagen, sin overlay verde */
-  background-image: url('../images/fondo-selva.jpg'); /* revisa la ruta */
+  background-image: url('../images/fondoselva.jpg'); /* revisa la ruta */
   background-size: cover;  
   background-position: center center;
   background-repeat: no-repeat;
