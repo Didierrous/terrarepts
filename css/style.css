@@ -110,7 +110,7 @@ body {
   height: 100%;
 
   /* Solo la imagen, sin overlay verde */
-  background-image: url('../images/fondoselva.jpg'); /* revisa la ruta */
+  background-image: url('../images/fondosegundo.png'); 
   background-size: cover;  
   background-position: center center;
   background-repeat: no-repeat;
@@ -289,8 +289,8 @@ footer {
 }
 
 .red-float img {
-  width: 45px;  /* ajusta según tu imagen */
-  height: 45px;
+  width: 60px;  /* ajusta según tu imagen */
+  height: 60px;
   object-fit: contain;
 }
 
