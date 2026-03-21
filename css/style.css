@@ -86,6 +86,14 @@ body {
   overflow: hidden; /* importante para que la animación no salga del contenedor */
 }
 
+.productos {
+  padding: 50px 20px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
 .productos::before {
   content: '';
   position: absolute;
@@ -95,15 +103,15 @@ body {
   height: 100%;
 
   /* Fondo selva */
-  background-image: url('../images/fondo-selva.jpg'); /* tu imagen real */
-  background-size: 100% 100%;
+  background-image: url('../images/fondo-selva.jpg'); /* verifica que esta ruta sea correcta */
+  background-size: cover;  /* cubrir todo */
   background-position: center center;
   background-repeat: no-repeat;
 
   /* Overlay verde translúcido */
-  background-color: rgba(0, 50, 0, 0.4);
-  mix-blend-mode: overlay; /* ayuda a que la foto se vea con el verde */
-  
+  background-color: rgba(0, 50, 0, 0.3); 
+  /* mix-blend-mode: overlay; <-- quitamos por ahora */
+
   z-index: -1;
 
   /* Animación de respiración */
@@ -125,9 +133,10 @@ body {
     background-position: center center;
   }
 }
+
 .productos h2 {
   margin-bottom: 30px;
-  position: relative; /* para estar sobre el pseudo-elemento */
+  position: relative;
   z-index: 2;
 }
 
